@@ -280,26 +280,35 @@ https://www.instagram.com/te_papa/
     width: 100%;
   }
 
+  #slide-3 {
+    height: 200vh;
+  }
+
+  #slide-3 .content {
+    width: 100%;
+  }
+
   #posL {
-    position: fixed;
-    top: 100px;
+    position: relative;
+    top: 20px;
     width: 100%;
     left: 0;
   }
 
   #posC {
-    position: fixed;
-    top: 300px;
+    position: relative;
+    top: 20px;
     width: 100%;
     left: 0;
   }
 
   #posR {
-    position: fixed;
-    top: 500px;
+    position: relative;
+    top: 20px;
     width: 100%;
     right: 0;
   }
+
 
   #slide-4 .content, #slide-5 .content, #slide-6 .content, #slide-7 .content, #slide-8 .content, #slide-9 .content, #slide-10 .content, #slide-11 .content, #slide-12 .content, #slide-13 .content {
     width: 100%;
@@ -316,7 +325,11 @@ https://www.instagram.com/te_papa/
 
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 769px) {
+  .bgs {
+    background-attachment: scroll;
+  }
+
   #slide-4 .content, #slide-5 .content, #slide-6 .content, #slide-7 .content, #slide-8 .content, #slide-9 .content, #slide-10 .content, #slide-11 .content, #slide-12 .content, #slide-13 .content {
     font-size: 16px;
     width: 100%;
